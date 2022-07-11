@@ -3,7 +3,7 @@
 I clone the decee- fluter project from londonappBrew but it did not work. so i created this repo for who want the updated working version of dicee-fluter project
 
 
-# Creating your own updated Dicee project
+# You can clone this project and use or create your own updated Dicee project
 
   # step 1
    create a new flutter project 
