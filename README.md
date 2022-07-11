@@ -48,7 +48,7 @@ I clone the decee- fluter project from londonappBrew but it did not work. so i c
 
 go inside ios > Runner and  then delete the 'Assets.xcassets' folder in your new flutter project and copy the same folder in old(decee-flutter project) and paste in your new project inside (ios > Runner)
 
-    ![image](https://user-images.githubusercontent.com/87405522/178193550-63eb0f9c-0fa0-4312-b769-cafb61651a9f.png)
+   ![image](https://user-images.githubusercontent.com/87405522/178194965-0c2ea727-260b-4836-98f4-5047818f040a.png)
 
 now go inside the android > app > src > main > res  and then select the bellow folders and delete them and replace *only* the same named folders from the old project ( decee-flutter)
 
