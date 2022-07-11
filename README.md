@@ -1,16 +1,59 @@
-# untitled1
+# Dicee v3 
 
-A new Flutter project.
+I clone the decee- fluter project from londonappBrew but it did not work. so i created this repo for who want the updated working version of dicee-fluter project
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+# Creating your own updated Dicee project
 
-A few resources to get you started if this is your first Flutter project:
+  # step 1
+   create a new flutter project 
+  
+  # step 2
+   copy and past the bellow code in your main.dart file
+   
+     import 'package:flutter/material.dart';
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+        void main() {
+          return runApp(
+            MaterialApp(
+              home: Scaffold(
+                backgroundColor: Colors.red,
+                appBar: AppBar(
+                  title: Text('Dicee'),
+                  backgroundColor: Colors.red,
+                ),
+                body: DicePage(),
+              ),
+            ),
+          );
+        }
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+        class DicePage extends StatelessWidget {
+          @override
+          Widget build(BuildContext context) {
+            return Container();
+          }
+        }
+        
+        
+   # step 3
+   update the pugspec.yaml file in your new project 
+   
+      assets:
+    - images/
+* be sure about indentation![image](https://user-images.githubusercontent.com/87405522/178193192-996d8c09-6f34-4dab-9796-2f342a59939b.png)
+
+# step 4 
+(now you are good to go but is you need app icons the follow the this step)
+
+go inside ios > Runner and  then delete the 'Assets.xcassets' folder in your new flutter project and copy the same folder in old(decee-flutter project) and paste in your new project inside (ios > Runner)
+
+    ![image](https://user-images.githubusercontent.com/87405522/178193550-63eb0f9c-0fa0-4312-b769-cafb61651a9f.png)
+
+now go inside the android > app > src > main > res  and then select the bellow folders and delete them and replace *only* the same named folders from the old project ( decee-flutter)
+
+![image](https://user-images.githubusercontent.com/87405522/178194166-7f6902d1-c4c7-45db-8527-98c02c3f2fbf.png)
+
+
+
+  
